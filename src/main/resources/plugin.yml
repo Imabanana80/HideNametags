@@ -2,3 +2,4 @@ name: HideNametags
 version: '${project.version}'
 main: com.imabanana80.hidenametags.HideNametags
 api-version: 1.19
+author: Imabanana80
