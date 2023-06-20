@@ -27,9 +27,9 @@ public final class HideNametags extends JavaPlugin implements Listener {
         Team hideNametags = board.getTeam("hideNametags");
         if (hideNametags == null){
             hideNametags = board.registerNewTeam("hideNametags");
+            hideNametags.setOption(NAME_TAG_VISIBILITY, Team.OptionStatus.NEVER);
         }
 
         hideNametags.addPlayer(p);
-        hideNametags.setOption(NAME_TAG_VISIBILITY, Team.OptionStatus.NEVER);
     }
 }
